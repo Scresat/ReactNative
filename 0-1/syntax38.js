@@ -12,7 +12,7 @@ const url = ''
 fetch(url)   //fetch returns a promise, so eventually it's gonna return a url
 //we can start to write a function to start handling the response
 
-  .then(function(res) {//takes a callback   
+  .then(function(res) {//takes a callback    
       //handle error? in catch
       return recurse.json()
   })
