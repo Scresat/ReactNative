@@ -4,7 +4,7 @@
 // - can be returned from functions
 
 //Allows for the creation of higher-order functions
-// - either  takes one or more functions as arguments or returns a function
+// - either takes one or more functions as arguments or returns a function
 // - map(), filter(), reduce() - most famous  high order function
 // - map() - operation that can be done to an array, maps any function to every single value in the array, so we get back an array where the values in the array are the result of passing the original array into some function
 
